@@ -1,0 +1,65 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --section-color: #5bb76c;
+    --company-color: #3676ae;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Container Style */
+.container {
+    margin: auto;
+    width: 50%;
+    border: solid 3px black; 
+    padding: 20px;
+}
+
+
+/* Header Style */
+#name {
+    margin: 16px 0;
+}
+
+#job__desc {
+    margin-bottom: 16px;
+    color: var(--section-color);
+}
+
+/* Section */
+.section__titles {
+    color: var(--section-color);
+}
+
+/* Skills and Experience */
+.company__name {
+    color: var(--company-color);
+    font-weight: 600;
+    margin: 0;
+}
+
+.time__desc {
+    margin: 0
+}
+
+/* List and Anchors */
+ul {
+    padding-left: 16px;
+}
+
+a {
+    color: black;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
